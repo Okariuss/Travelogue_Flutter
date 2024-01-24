@@ -13,9 +13,7 @@ extension LottiePathEnumExtension on LottiePathEnum {
     }
   }
 
-  Widget get toWidget {
-    return Lottie.asset(rawValue);
-  }
+  Widget get toWidget => Lottie.asset(rawValue);
 
   String _pathValue(String path) => 'assets/animations/anim_$path.json';
 }

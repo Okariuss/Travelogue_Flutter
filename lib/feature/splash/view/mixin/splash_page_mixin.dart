@@ -12,7 +12,13 @@ mixin _SplashPageMixin on State<SplashPage> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const HomePage(),
+          builder: (context) {
+            return CacheItems.isFirst.readBool
+                ? const OnboardPage()
+                : (CacheItems.isLogin.readBool
+                    ? const HomePage()
+                    : const LoginPage());
+          },
         ),
       );
     });

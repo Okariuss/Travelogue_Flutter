@@ -1,4 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:travelogue_flutter/product/init/language/locale_keys.g.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -7,12 +9,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const Column(
+      body: Column(
         children: [
-          Text(
-            'Home Page',
-            style: TextStyle(fontFamily: 'Bilbo'),
-          ),
+          const Text(LocaleKeys.splash_title).tr(),
         ],
       ),
     );

@@ -1,0 +1,20 @@
+{
+    "splash": {
+        "title": "Choose and Travel"
+    },
+    "onboard": {
+        "skip": "SKIP",
+        "page1": {
+            "title": "Want Travel?",
+            "description": "Decide where do you want to go, find your ticket and travel."
+        },
+        "page2": {
+            "title": "Need Hotel?",
+            "description": "You can sort all the hotels in your destination according to price, star and comfort and you can choose the most beautiful hotel."
+        },
+        "page3": {
+            "title": "Need Help?",
+            "description": "You can contact us by mail, phone number or live chat. We will assist you in everything."
+        }
+    }
+}

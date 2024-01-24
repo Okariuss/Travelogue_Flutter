@@ -1,0 +1,20 @@
+{
+    "splash": {
+        "title": "Seç ve Yolculuk Et"
+    },
+    "onboard": {
+        "skip": "ATLA",
+        "page1": {
+            "title": "Seyahat mi İstiyorsunuz?",
+            "description": "Nereye gitmek istediğinize karar verin, biletinizi bulun ve seyahat edin."
+        },
+        "page2": {
+            "title": "Otel mi İstiyorsunuz?",
+            "description": "Gidilecek yerdeki tüm otelleri fiyat, yıldız ve konfora göre sıralayabilir ve en güzel oteli seçebilirsiniz."
+        },
+        "page3": {
+            "title": "Yardıma mı İhtiyacınız Var?",
+            "description": "Bize e-posta, telefon numarası veya canlı sohbet ile ulaşabilirsiniz. Her konuda size yardımcı olacağız."
+        }
+    }
+}
